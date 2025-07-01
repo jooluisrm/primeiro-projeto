@@ -6,7 +6,7 @@ export default function Screen() {
         <View style={styles.container}>
             <Text>Está tela é a sobre mim</Text>
 
-            <Link href={"/"} asChild>
+            <Link push href={"/"} asChild>
                 <Pressable style={styles.button}>
                     <Text>Ir para Home</Text>
                 </Pressable>

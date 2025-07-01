@@ -4,7 +4,7 @@ import { Pressable, StyleSheet, Text, View } from "react-native";
 export default function Screen() {
 
     const handleClick = () => {
-        router.navigate("/about");
+        router.replace("/about");
     }
 
     return (
