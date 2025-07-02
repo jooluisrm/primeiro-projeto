@@ -19,6 +19,9 @@ export default function Screen() {
             <Pressable onPress={handleClick} style={styles.button}>
                 <Text>Ir para Sobre</Text>
             </Pressable>
+
+            <Link href={"/termos"}>Termos de Uso</Link>
+            <Link href={"/auth/login"}>Fazer Login</Link>
         </View>
     )
 }
@@ -37,4 +40,4 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderRadius: 10
     }
-})
+});
