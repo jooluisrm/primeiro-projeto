@@ -20,8 +20,8 @@ export default function Screen() {
                 <Text>Ir para Sobre</Text>
             </Pressable>
 
-            <Link href={"/termos"}>Termos de Uso</Link>
-            <Link href={"/auth/login"}>Fazer Login</Link>
+            <Link href={"/profile/1"}>Perfil 1</Link>
+            <Link href={"/profile/2"}>Perfil 2</Link>
         </View>
     )
 }
