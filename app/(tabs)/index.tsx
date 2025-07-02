@@ -10,18 +10,13 @@ export default function Screen() {
     return (
         <View style={styles.container}>
             <Stack.Screen options={{
-                title: "Início",
-                headerRight: () => <Button title="Adicionar"/>
+                title: "Início"
             }} />
-
             <Text>Opa, tudo bem?</Text>
 
             <Pressable onPress={handleClick} style={styles.button}>
                 <Text>Ir para Sobre</Text>
             </Pressable>
-
-            <Link href={"/profile/1"}>Perfil 1</Link>
-            <Link href={"/profile/2"}>Perfil 2</Link>
         </View>
     )
 }
