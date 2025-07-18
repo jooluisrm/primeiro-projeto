@@ -1,10 +1,19 @@
-import { Stack } from "expo-router";
+import { Drawer } from "expo-router/drawer";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 export default function RootLayout() {
     return (
-        <Stack screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="(tabs)" />
-            <Stack.Screen name="tela2" />
-        </Stack>
+        <GestureHandlerRootView>
+            <Drawer>
+                <Drawer.Screen 
+                    name="index"
+                    options={{title: "Home"}}
+                />
+                <Drawer.Screen 
+                    name="about"
+                    options={{title: "Sobre mim"}}
+                />
+            </Drawer>
+        </GestureHandlerRootView>
     )
 }

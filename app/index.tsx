@@ -5,9 +5,7 @@ export default function Screen() {
 
     return (
         <View style={styles.container}>
-            <Text>Tela 3</Text>
-
-            <Link href={"/tela4"}>Ir para tela 4</Link>
+            <Text>Tela inicial</Text>
         </View>
     )
 }

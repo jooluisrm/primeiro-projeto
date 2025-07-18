@@ -5,7 +5,7 @@ export default function Screen() {
 
     return (
         <View style={styles.container}>
-            <Text>Tela 4</Text>
+            <Text>Sobre o autor</Text>
         </View>
     )
 }
